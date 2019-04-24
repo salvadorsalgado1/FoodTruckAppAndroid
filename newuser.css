@@ -1,0 +1,53 @@
+body
+{
+
+  background-image:url('images/colorwallpaper.jpg');
+  background-repeat: no-repeat;
+
+}
+.login-page
+{
+  position:absolute;
+  z-index: 1;
+  width:800px;
+height:950px;
+  top:50px;
+  left:50px;
+  background-color: rgb(67, 66, 68);
+  border-radius:25px;
+  perspective: none;
+  opacity:0.8;
+  border: 2px white solid;
+}
+div
+{
+  position:absolute;
+  z-index: 2;
+  color:white;
+  top:50px;
+  left:100px;
+
+
+
+}
+.form
+{
+  position:relative;
+  max-width: 550px;
+  top:10px;
+  left:5px;
+  margin: 5px auto 100px;
+  padding: 20px;
+  text-align: center;
+
+  padding-top: 200px;
+}
+.form input{
+  outline:2;
+  width:100%;
+  box-sizing:border-box;
+  border:0;
+  padding:30px;
+  margin:0 0 20px;
+  font-size: 20px;
+}

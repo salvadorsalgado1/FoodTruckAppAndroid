@@ -1,0 +1,36 @@
+html{
+  background: url('images/colorwallpaper.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+
+
+}
+.instagram{
+position:absolute;
+z-index: 1;
+height:50px;
+width:50px;
+padding: 250px 250px;
+
+
+}
+.MainMenuButton
+{
+  position:absolute;
+  z-index: 2;
+  height:75px;
+  width:300px;
+  background-color: white;
+  top:900px;
+  left:370px;
+  background-color:rgb(113, 110, 112);
+  color:white;
+  text-align: center;
+  border: 2px white solid;
+  cursor:pointer;
+}
+.MainMenuButton:hover{
+  opacity:0.8;
+}

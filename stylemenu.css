@@ -1,0 +1,133 @@
+*
+{
+  margin:0;
+  padding:0;
+
+}
+body{
+  background-image: url('images/colorwallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container
+{
+
+    position:absolute;
+    z-index: 2;
+    width:800px;
+  height:950px;
+    top:50px;
+    left:50px;
+    background-color: rgb(67, 66, 68);
+    border-radius:25px;
+    perspective: none;
+    opacity:0.8;
+    border: 2px white solid;
+
+}
+.foodtruckbackground img
+{
+  position:absolute;
+  z-index: 0;
+  top:350px;
+  height:400px;
+  left:100px;
+}
+.Search{
+  position:absolute;
+  z-index: 3;
+  width: 300px;
+  height:200px;
+  top:100px;
+  left:100px;
+  border-radius: 20px;
+  background-color: rgb(45, 38, 57);
+  text-align: left;
+  text-indent: 15px;
+  color:white;
+  border: white 2px solid;
+}
+.Search img
+{
+  position:absolute;
+  z-index: 3;
+  height:130px;
+  left:100px;
+  opacity:0.2;
+}
+.Profile{
+  position: absolute;
+  z-index: 3;
+  width:300px;
+  height:200px;
+  top:100px;
+  left:500px;
+  border-radius: 20px;
+  background-color: rgb(45,38,90);
+  text-align: left;
+  text-indent: 15px;
+  color:white;
+  border: white 2px solid;
+}
+.Favorites{
+  position: absolute;
+  z-index: 3;
+  width:300px;
+  height:200px;
+  top:350px;
+  left:100px;
+  border-radius: 20px;
+  background-color: rgb(45,38,40);
+  text-align: left;
+  text-indent: 15px;
+  color:white;
+  border: white 2px solid;
+}
+.Locations{
+
+    position: absolute;
+    z-index: 3;
+    width:300px;
+    height:200px;
+    top:350px;
+    left:500px;
+    border-radius: 20px;
+    background-color: rgb(45,60,90);
+    text-align: left;
+    text-indent: 15px;
+    color:white;
+  border: white 2px solid;
+
+}
+.Feed
+{
+
+    position: absolute;
+    z-index: 3;
+    width:300px;
+    height:200px;
+    top:600px;
+    left:100px;
+    border-radius: 20px;
+    background-color: rgb(80,60,90);
+    text-align: left;
+    text-indent: 15px;
+    color:white;
+  border: white 2px solid;
+
+}
+.SignOut
+{
+  position: absolute;
+  z-index: 3;
+  width:300px;
+  height:200px;
+  top:600px;
+  left:500px;
+  border-radius: 20px;
+  background-color: rgb(45,90,90);
+  text-align: left;
+  text-indent: 15px;
+  color:white;
+border: white 2px solid;
+}

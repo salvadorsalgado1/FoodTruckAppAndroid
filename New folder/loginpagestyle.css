@@ -1,0 +1,45 @@
+*{
+  margin:0;
+  padding:0;
+}
+html{
+  height:100%;
+}
+body{
+  height:100%;
+  width:100%;
+  background-size:cover;
+
+position:fixed;
+z-index: -1;
+background-image:url('colorwallpaper.jpg');
+background-repeat: no-repeat;
+}
+.login-page
+{
+
+width:850px;
+padding: 10% 0 0;
+margin:auto;
+
+}
+
+.form
+{
+  position:relative;
+  max-width: 550px;
+  margin: 100px auto 100px;
+  padding: 30px;
+  text-align: center;
+  background:blue;
+  padding-top: 200px;
+}
+.form input{
+  outline:2;
+  width:100%;
+  box-sizing:border-box;
+  border:0;
+  padding:30px;
+  margin:0 0 20px;
+  font-size: 20px;
+}

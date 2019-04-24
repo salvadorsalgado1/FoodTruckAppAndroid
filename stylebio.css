@@ -1,0 +1,273 @@
+body{
+  background-image:url( 'images/colorwallpaper.jpg');
+}
+.container
+{
+  position:absolute;
+  z-index: -3;
+  width:600px;
+  height:950px;
+  top:50px;
+  left:200px;
+  background-color: rgb(67, 66, 68);
+  border-radius:25px;
+  perspective: none;
+  opacity:0.8;
+  border: 2px white solid;
+}
+
+#NavOpenCloseIcon img
+{
+position:fixed;
+width:100px;
+padding-left:7px;
+padding-top:7px;
+
+z-index: 100;
+}
+#Home
+{
+position:fixed;
+background-color:rgb(83, 85, 87);
+top:0;
+left:0;
+bottom:0;
+width:115px;
+box-shadow:10px 5px 10px 5px rgb(110, 110, 112);
+z-index:1;
+}
+#Menu{
+  background-color:rgb(41, 41, 41);
+  position:fixed;
+  top:0;
+  bottom:0;
+  left:-650px;
+  width:600px;
+  transition-timing-function: ease-in-out 1200ms;
+  -webkit-transition:all ease-in-out 10000ms;
+  transition: all ease-in-out 1200ms;
+  border-style:solid;
+  border-color:rgb(89, 88, 87);
+  z-index:-1;
+
+
+}
+
+
+#NavOpenCloseIcon img
+{
+position:fixed;
+width:100px;
+padding-left:7px;
+padding-top:7px;
+z-index: 100;
+cursor:pointer;
+}
+
+
+.ButtonHome{
+  position:absolute;
+  top:326px;
+  left:130px;
+  padding: 21px 208px;
+
+  text-align: center;
+  display: inline-block;
+  font-size: 22px;
+  background-color:Gray;
+  border-radius: 15px;
+
+}
+.ButtonHome:hover{
+  opacity:0.8;
+}
+.ButtonFavorites{
+position:absolute;
+top:398px;
+left:130px;
+padding: 21px 194px;
+
+text-align: center;
+display: inline-block;
+font-size: 22px;
+background-color:Gray;
+border-radius: 15px;
+}
+.ButtonFavorites:hover{
+  opacity:0.7;
+}
+
+.ButtonBio
+{
+  position:absolute;
+  top:470px;
+  left:130px;
+  padding: 20px 189px;
+
+  text-align: center;
+  display: inline-block;
+  font-size: 22px;
+  background-color:Gray;
+  border-radius: 15px;
+}
+.ButtonBio:hover{
+opacity:0.8;
+}
+.ButtonLocations{
+  position:absolute;
+  top:540px;
+  left:130px;
+  padding: 20px 192px;
+
+  text-align: center;
+  display: inline-block;
+  font-size: 22px;
+  background-color:Gray;
+  border-radius: 15px;
+
+
+}
+.ButtonLocations:hover{
+  opacity:0.8;
+}
+.ButtonSocialMedia
+{
+  position:absolute;
+  top:610px;
+  left:130px;
+  padding: 8px 180px;
+
+  text-align: center;
+  display: inline-block;
+  font-size: 22px;
+  background-color:Gray;
+  border-radius: 15px;
+}
+.ButtonSocialMedia:hover{
+  opacity:0.8;
+}
+.ButtonAccountInfo
+{
+  position:absolute;
+  top:680px;
+  left:130px;
+  padding: 9px 177px;
+
+  text-align: center;
+  display: inline-block;
+  font-size: 22px;
+  background-color:Gray;
+  border-radius: 15px;
+}
+.ButtonAccountInfo:hover{
+  opacity:0.8;
+}
+.ButtonSignOut{
+  position:absolute;
+  top:752px;
+  left:130px;
+  padding: 21px 195px;
+
+  text-align: center;
+  display: inline-block;
+  font-size: 22px;
+  background-color:Gray;
+  border-radius: 15px;
+}
+.ButtonSignOut:hover{
+  opacity:0.8;
+}
+#Boxes img{
+  position: absolute;
+  width:650px;
+  top:200px;
+  left:200px;
+  opacity:.1;
+}
+#FoodtruckImage2 img{
+  position:absolute;
+  width:360px;
+  left:180px;
+  top:30;
+  z-index:-1;
+
+}
+
+
+.LabelInstagram
+{
+  position:absolute;
+  left:270px;
+  top:975px;
+  font-size:28px;
+}
+div img
+{
+z-index:-5;
+position:absolute;
+}
+.Feed{
+  position:absolute;
+  z-index: -2;
+  padding:20px 20px;
+  border-radius: 10px;
+  left:250px;
+  background-color: rgb(105, 189, 250);
+  top:425px;
+  height:350px;
+  width:475px;
+}
+.Feed p
+{
+  color:white;
+  text-align: left;
+  font-size: 20px;
+
+}
+
+.BiographyEntry
+{
+  position:absolute;
+  z-index: -3;
+  width:700px;
+  height:300px;
+
+}
+
+.container img{
+  position:absolute;
+  left:100px;
+  top:50px;
+border-radius:40px;
+
+}
+.BiographyText
+{
+  color:white;
+  font-size: 16px;
+  position:absolute;
+  left:400px;
+  top:925px;
+font-family: monospace;
+z-index: -2;
+
+}
+.ButtonBioEdit
+{
+  position:absolute;
+  z-index: 3;
+
+  left:325px;
+top:850px;
+  height:70px;
+  width:300px;
+  background-color:white;
+  border-radius: 9px;
+
+  background-color:rgb(113, 110, 112);
+  color:white;
+  border:white 2px solid;
+  text-align: center;
+  
+
+}
